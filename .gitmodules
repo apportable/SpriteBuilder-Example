@@ -1,3 +1,6 @@
 [submodule "libs/cocos2d-iphone"]
 	path = libs/cocos2d-iphone
 	url = https://github.com/apportable/cocos2d-iphone.git
+[submodule "libs/SpriteBuilder-Reader"]
+	path = libs/SpriteBuilder-Reader
+	url = https://github.com/apportable/SpriteBuilder-Reader.git
