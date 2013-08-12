@@ -30,8 +30,6 @@
 		B77F1B5D17B978D7009739AE /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = B77F1B5C17B978D7009739AE /* iTunesArtwork */; };
 		B77F1CD217B978D8009739AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1CD117B978D8009739AE /* main.m */; };
 		B77F1CD517B978D8009739AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1CD417B978D8009739AE /* AppDelegate.m */; };
-		B77F1CD817B978D8009739AE /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1CD717B978D8009739AE /* HelloWorldLayer.m */; };
-		B77F1CDB17B978D8009739AE /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1CDA17B978D8009739AE /* IntroLayer.m */; };
 		B77F1DB217B98809009739AE /* CCAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1CE317B98808009739AE /* CCAction.m */; };
 		B77F1DB317B98809009739AE /* CCActionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1CE517B98808009739AE /* CCActionCamera.m */; };
 		B77F1DB417B98809009739AE /* CCActionCatmullRom.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1CE717B98808009739AE /* CCActionCatmullRom.m */; };
@@ -136,6 +134,16 @@
 		B77F1E3A17B9881B009739AE /* vec2.c in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E2B17B9881B009739AE /* vec2.c */; };
 		B77F1E3B17B9881B009739AE /* vec3.c in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E2C17B9881B009739AE /* vec3.c */; };
 		B77F1E3C17B9881B009739AE /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E2D17B9881B009739AE /* vec4.c */; };
+		B77F1E4F17B98E8A009739AE /* CCBAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4017B98E8A009739AE /* CCBAnimationManager.m */; };
+		B77F1E5017B98E8A009739AE /* CCBKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4217B98E8A009739AE /* CCBKeyframe.m */; };
+		B77F1E5117B98E8A009739AE /* CCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4417B98E8A009739AE /* CCBReader.m */; };
+		B77F1E5217B98E8A009739AE /* CCBsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4617B98E8A009739AE /* CCBsequence.m */; };
+		B77F1E5317B98E8A009739AE /* CCBSequenceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4817B98E8A009739AE /* CCBSequenceProperty.m */; };
+		B77F1E5417B98E8A009739AE /* CCNode+CCBRelativePositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4A17B98E8A009739AE /* CCNode+CCBRelativePositioning.m */; };
+		B77F1E5517B98E8A009739AE /* CCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4D17B98E8A009739AE /* CCScrollView.m */; };
+		B77F1E5617B98E8A009739AE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B77F1E4E17B98E8A009739AE /* README.md */; };
+		B77F1E5A17B995EA009739AE /* CCBLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E5917B995EA009739AE /* CCBLocalizationManager.m */; };
+		B7DC7F7217B9A30500AC8509 /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = B7DC7F7117B9A30500AC8509 /* Published-iOS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,10 +174,6 @@
 		B77F1CD117B978D8009739AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B77F1CD317B978D8009739AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B77F1CD417B978D8009739AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B77F1CD617B978D8009739AE /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		B77F1CD717B978D8009739AE /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		B77F1CD917B978D8009739AE /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		B77F1CDA17B978D8009739AE /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		B77F1CE217B98808009739AE /* CCAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAction.h; sourceTree = "<group>"; };
 		B77F1CE317B98808009739AE /* CCAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAction.m; sourceTree = "<group>"; };
 		B77F1CE417B98808009739AE /* CCActionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCActionCamera.h; sourceTree = "<group>"; };
@@ -403,6 +407,25 @@
 		B77F1E2B17B9881B009739AE /* vec2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec2.c; sourceTree = "<group>"; };
 		B77F1E2C17B9881B009739AE /* vec3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec3.c; sourceTree = "<group>"; };
 		B77F1E2D17B9881B009739AE /* vec4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec4.c; sourceTree = "<group>"; };
+		B77F1E3F17B98E8A009739AE /* CCBAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBAnimationManager.h; sourceTree = "<group>"; };
+		B77F1E4017B98E8A009739AE /* CCBAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBAnimationManager.m; sourceTree = "<group>"; };
+		B77F1E4117B98E8A009739AE /* CCBKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBKeyframe.h; sourceTree = "<group>"; };
+		B77F1E4217B98E8A009739AE /* CCBKeyframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBKeyframe.m; sourceTree = "<group>"; };
+		B77F1E4317B98E8A009739AE /* CCBReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBReader.h; sourceTree = "<group>"; };
+		B77F1E4417B98E8A009739AE /* CCBReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBReader.m; sourceTree = "<group>"; };
+		B77F1E4517B98E8A009739AE /* CCBSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSequence.h; sourceTree = "<group>"; };
+		B77F1E4617B98E8A009739AE /* CCBsequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBsequence.m; sourceTree = "<group>"; };
+		B77F1E4717B98E8A009739AE /* CCBSequenceProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSequenceProperty.h; sourceTree = "<group>"; };
+		B77F1E4817B98E8A009739AE /* CCBSequenceProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBSequenceProperty.m; sourceTree = "<group>"; };
+		B77F1E4917B98E8A009739AE /* CCNode+CCBRelativePositioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+CCBRelativePositioning.h"; sourceTree = "<group>"; };
+		B77F1E4A17B98E8A009739AE /* CCNode+CCBRelativePositioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+CCBRelativePositioning.m"; sourceTree = "<group>"; };
+		B77F1E4C17B98E8A009739AE /* CCScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScrollView.h; sourceTree = "<group>"; };
+		B77F1E4D17B98E8A009739AE /* CCScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCScrollView.m; sourceTree = "<group>"; };
+		B77F1E4E17B98E8A009739AE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B77F1E5717B993F5009739AE /* CCBuilderReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBuilderReader.h; sourceTree = "<group>"; };
+		B77F1E5817B995EA009739AE /* CCBLocalizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBLocalizationManager.h; sourceTree = "<group>"; };
+		B77F1E5917B995EA009739AE /* CCBLocalizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBLocalizationManager.m; sourceTree = "<group>"; };
+		B7DC7F7117B9A30500AC8509 /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "Resources/Published-iOS"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -465,10 +488,7 @@
 			children = (
 				B77F1CD317B978D8009739AE /* AppDelegate.h */,
 				B77F1CD417B978D8009739AE /* AppDelegate.m */,
-				B77F1CD617B978D8009739AE /* HelloWorldLayer.h */,
-				B77F1CD717B978D8009739AE /* HelloWorldLayer.m */,
-				B77F1CD917B978D8009739AE /* IntroLayer.h */,
-				B77F1CDA17B978D8009739AE /* IntroLayer.m */,
+				B7DC7F7117B9A30500AC8509 /* Published-iOS */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				B77F1B5E17B978D7009739AE /* libs */,
 				B77F1CCF17B978D8009739AE /* Supporting Files */,
@@ -498,6 +518,7 @@
 		B77F1B5E17B978D7009739AE /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				B77F1E3D17B98E8A009739AE /* SpriteBuilder-Reader */,
 				B77F1E0B17B9881B009739AE /* kazmath */,
 				B77F1CE117B98808009739AE /* cocos2d */,
 			);
@@ -834,6 +855,48 @@
 			path = GL;
 			sourceTree = "<group>";
 		};
+		B77F1E3D17B98E8A009739AE /* SpriteBuilder-Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B77F1E3E17B98E8A009739AE /* CCBReader */,
+				B77F1E4B17B98E8A009739AE /* CCScrollView */,
+				B77F1E4E17B98E8A009739AE /* README.md */,
+			);
+			name = "SpriteBuilder-Reader";
+			path = "../../libs/SpriteBuilder-Reader";
+			sourceTree = "<group>";
+		};
+		B77F1E3E17B98E8A009739AE /* CCBReader */ = {
+			isa = PBXGroup;
+			children = (
+				B77F1E5717B993F5009739AE /* CCBuilderReader.h */,
+				B77F1E3F17B98E8A009739AE /* CCBAnimationManager.h */,
+				B77F1E4017B98E8A009739AE /* CCBAnimationManager.m */,
+				B77F1E4117B98E8A009739AE /* CCBKeyframe.h */,
+				B77F1E4217B98E8A009739AE /* CCBKeyframe.m */,
+				B77F1E4317B98E8A009739AE /* CCBReader.h */,
+				B77F1E4417B98E8A009739AE /* CCBReader.m */,
+				B77F1E4517B98E8A009739AE /* CCBSequence.h */,
+				B77F1E4617B98E8A009739AE /* CCBsequence.m */,
+				B77F1E4717B98E8A009739AE /* CCBSequenceProperty.h */,
+				B77F1E4817B98E8A009739AE /* CCBSequenceProperty.m */,
+				B77F1E4917B98E8A009739AE /* CCNode+CCBRelativePositioning.h */,
+				B77F1E4A17B98E8A009739AE /* CCNode+CCBRelativePositioning.m */,
+				B77F1E5817B995EA009739AE /* CCBLocalizationManager.h */,
+				B77F1E5917B995EA009739AE /* CCBLocalizationManager.m */,
+			);
+			path = CCBReader;
+			sourceTree = "<group>";
+		};
+		B77F1E4B17B98E8A009739AE /* CCScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B77F1E4C17B98E8A009739AE /* CCScrollView.h */,
+				B77F1E4D17B98E8A009739AE /* CCScrollView.m */,
+			);
+			path = CCScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -898,6 +961,8 @@
 				B77F1B5D17B978D7009739AE /* iTunesArtwork in Resources */,
 				B77F1E2F17B9881B009739AE /* ChangeLog in Resources */,
 				B77F1E3017B9881B009739AE /* CMakeLists.txt in Resources */,
+				B77F1E5617B98E8A009739AE /* README.md in Resources */,
+				B7DC7F7217B9A30500AC8509 /* Published-iOS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -910,8 +975,6 @@
 			files = (
 				B77F1CD217B978D8009739AE /* main.m in Sources */,
 				B77F1CD517B978D8009739AE /* AppDelegate.m in Sources */,
-				B77F1CD817B978D8009739AE /* HelloWorldLayer.m in Sources */,
-				B77F1CDB17B978D8009739AE /* IntroLayer.m in Sources */,
 				B77F1DB217B98809009739AE /* CCAction.m in Sources */,
 				B77F1DB317B98809009739AE /* CCActionCamera.m in Sources */,
 				B77F1DB417B98809009739AE /* CCActionCatmullRom.m in Sources */,
@@ -1014,6 +1077,14 @@
 				B77F1E3A17B9881B009739AE /* vec2.c in Sources */,
 				B77F1E3B17B9881B009739AE /* vec3.c in Sources */,
 				B77F1E3C17B9881B009739AE /* vec4.c in Sources */,
+				B77F1E4F17B98E8A009739AE /* CCBAnimationManager.m in Sources */,
+				B77F1E5017B98E8A009739AE /* CCBKeyframe.m in Sources */,
+				B77F1E5117B98E8A009739AE /* CCBReader.m in Sources */,
+				B77F1E5217B98E8A009739AE /* CCBsequence.m in Sources */,
+				B77F1E5317B98E8A009739AE /* CCBSequenceProperty.m in Sources */,
+				B77F1E5417B98E8A009739AE /* CCNode+CCBRelativePositioning.m in Sources */,
+				B77F1E5517B98E8A009739AE /* CCScrollView.m in Sources */,
+				B77F1E5A17B995EA009739AE /* CCBLocalizationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1119,6 +1190,7 @@
 				B77F1CE017B978D8009739AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
