@@ -117,6 +117,19 @@
 			<key>tabletScale</key>
 			<integer>1</integer>
 		</dict>
+		<key>pixelguy.png</key>
+		<dict>
+			<key>format_android</key>
+			<integer>3</integer>
+			<key>format_ios</key>
+			<integer>3</integer>
+			<key>format_ios_compress</key>
+			<true/>
+		</dict>
 	</dict>
+	<key>versionStr</key>
+	<string>Version: 0.9-alpha0
+GitHub: 501c97d7b2
+</string>
 </dict>
 </plist>

@@ -24,6 +24,13 @@
 				<string>Hej SpriteBuilder</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>key</key>
+			<string>Text With Outline
+&amp; Shadow!</string>
+			<key>translations</key>
+			<dict/>
+		</dict>
 	</array>
 </dict>
 </plist>
