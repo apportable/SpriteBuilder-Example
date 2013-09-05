@@ -263,7 +263,6 @@
 			isa = PBXGroup;
 			children = (
 				B77F1E3E17B98E8A009739AE /* CCBReader */,
-				B77F1E4B17B98E8A009739AE /* CCScrollView */,
 				B77F1E4E17B98E8A009739AE /* README.md */,
 			);
 			name = "SpriteBuilder-Reader";
@@ -290,13 +289,6 @@
 				B77F1E5917B995EA009739AE /* CCBLocalizationManager.m */,
 			);
 			path = CCBReader;
-			sourceTree = "<group>";
-		};
-		B77F1E4B17B98E8A009739AE /* CCScrollView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CCScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
