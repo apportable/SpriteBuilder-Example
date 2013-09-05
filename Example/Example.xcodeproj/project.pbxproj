@@ -210,14 +210,14 @@
 		B77F1B4517B978D7009739AE /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				B7B276E817D941EE00F4F4B1 /* MainScene.h */,
+				B7B276E917D941EF00F4F4B1 /* MainScene.m */,
 				B77F1CD317B978D8009739AE /* AppDelegate.h */,
 				B77F1CD417B978D8009739AE /* AppDelegate.m */,
 				B7DC7F7117B9A30500AC8509 /* Published-iOS */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				B77F1B5E17B978D7009739AE /* libs */,
 				B77F1CCF17B978D8009739AE /* Supporting Files */,
-				B7B276E817D941EE00F4F4B1 /* MainScene.h */,
-				B7B276E917D941EF00F4F4B1 /* MainScene.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -485,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -508,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Example/Prefix.pch;
