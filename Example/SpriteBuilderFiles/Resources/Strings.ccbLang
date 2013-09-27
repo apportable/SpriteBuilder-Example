@@ -31,6 +31,17 @@
 			<key>translations</key>
 			<dict/>
 		</dict>
+		<dict>
+			<key>key</key>
+			<string>HELLO</string>
+			<key>translations</key>
+			<dict>
+				<key>en</key>
+				<string>HELLO</string>
+				<key>sv</key>
+				<string>HEJ</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>

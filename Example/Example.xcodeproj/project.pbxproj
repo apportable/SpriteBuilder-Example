@@ -37,7 +37,6 @@
 		B77F1E5117B98E8A009739AE /* CCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4417B98E8A009739AE /* CCBReader.m */; };
 		B77F1E5217B98E8A009739AE /* CCBsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4617B98E8A009739AE /* CCBsequence.m */; };
 		B77F1E5317B98E8A009739AE /* CCBSequenceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4817B98E8A009739AE /* CCBSequenceProperty.m */; };
-		B77F1E5417B98E8A009739AE /* CCNode+CCBRelativePositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4A17B98E8A009739AE /* CCNode+CCBRelativePositioning.m */; };
 		B77F1E5617B98E8A009739AE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B77F1E4E17B98E8A009739AE /* README.md */; };
 		B77F1E5A17B995EA009739AE /* CCBLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E5917B995EA009739AE /* CCBLocalizationManager.m */; };
 		B7B276EA17D941EF00F4F4B1 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B276E917D941EF00F4F4B1 /* MainScene.m */; };
@@ -128,8 +127,6 @@
 		B77F1E4617B98E8A009739AE /* CCBsequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBsequence.m; sourceTree = "<group>"; };
 		B77F1E4717B98E8A009739AE /* CCBSequenceProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSequenceProperty.h; sourceTree = "<group>"; };
 		B77F1E4817B98E8A009739AE /* CCBSequenceProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBSequenceProperty.m; sourceTree = "<group>"; };
-		B77F1E4917B98E8A009739AE /* CCNode+CCBRelativePositioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+CCBRelativePositioning.h"; sourceTree = "<group>"; };
-		B77F1E4A17B98E8A009739AE /* CCNode+CCBRelativePositioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+CCBRelativePositioning.m"; sourceTree = "<group>"; };
 		B77F1E4E17B98E8A009739AE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		B77F1E5717B993F5009739AE /* CCBuilderReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBuilderReader.h; sourceTree = "<group>"; };
 		B77F1E5817B995EA009739AE /* CCBLocalizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBLocalizationManager.h; sourceTree = "<group>"; };
@@ -283,8 +280,6 @@
 				B77F1E4617B98E8A009739AE /* CCBsequence.m */,
 				B77F1E4717B98E8A009739AE /* CCBSequenceProperty.h */,
 				B77F1E4817B98E8A009739AE /* CCBSequenceProperty.m */,
-				B77F1E4917B98E8A009739AE /* CCNode+CCBRelativePositioning.h */,
-				B77F1E4A17B98E8A009739AE /* CCNode+CCBRelativePositioning.m */,
 				B77F1E5817B995EA009739AE /* CCBLocalizationManager.h */,
 				B77F1E5917B995EA009739AE /* CCBLocalizationManager.m */,
 			);
@@ -411,7 +406,6 @@
 				B77F1E5117B98E8A009739AE /* CCBReader.m in Sources */,
 				B77F1E5217B98E8A009739AE /* CCBsequence.m in Sources */,
 				B77F1E5317B98E8A009739AE /* CCBSequenceProperty.m in Sources */,
-				B77F1E5417B98E8A009739AE /* CCNode+CCBRelativePositioning.m in Sources */,
 				B77F1E5A17B995EA009739AE /* CCBLocalizationManager.m in Sources */,
 				B7B276EA17D941EF00F4F4B1 /* MainScene.m in Sources */,
 			);
