@@ -67,7 +67,7 @@
 	<key>publishToZipFile</key>
 	<false/>
 	<key>resourceAutoScaleFactor</key>
-	<integer>4</integer>
+	<integer>2</integer>
 	<key>resourcePaths</key>
 	<array>
 		<dict>
@@ -77,6 +77,8 @@
 	</array>
 	<key>resourceProperties</key>
 	<dict>
+		<key>PhysicsDemo/Sprites</key>
+		<dict/>
 		<key>ccbResources</key>
 		<dict>
 			<key>previewFolderHidden</key>
@@ -139,6 +141,8 @@
 			<integer>3</integer>
 			<key>format_ios_compress</key>
 			<true/>
+			<key>scaleFrom</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>versionStr</key>

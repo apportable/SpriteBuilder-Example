@@ -23,6 +23,7 @@
  */
 
 #import "MainScene.h"
+#import "CCBuilderReader.h"
 
 @implementation MainScene
 
@@ -31,7 +32,8 @@
     [_label stopAllActions];
     _label.rotation = 0;
     
-    [_label runAction:[CCRotateBy actionWithDuration:1 angle:360]];
+    CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"PhysicsDemo/PhysicsScene"];
+    [[CCDirector sharedDirector] replaceScene:scene];
 }
 
 @end
