@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>PhysicsDemo/Sprites/arrow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{91, 18}, {24, 62}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {24, 62}}</string>
+			<key>sourceSize</key>
+			<string>{24, 62}</string>
+		</dict>
+		<key>PhysicsDemo/Sprites/ball.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 173}, {45, 46}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {45, 46}}</string>
+			<key>sourceSize</key>
+			<string>{45, 46}</string>
+		</dict>
+		<key>PhysicsDemo/Sprites/shape-0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 18}, {88, 86}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {88, 86}}</string>
+			<key>sourceSize</key>
+			<string>{88, 86}</string>
+		</dict>
+		<key>PhysicsDemo/Sprites/shape-1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{124, 1}, {108, 88}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {108, 88}}</string>
+			<key>sourceSize</key>
+			<string>{108, 88}</string>
+		</dict>
+		<key>PhysicsDemo/Sprites/shape-2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 106}, {33, 65}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {33, 65}}</string>
+			<key>sourceSize</key>
+			<string>{33, 65}</string>
+		</dict>
+		<key>PhysicsDemo/Sprites/shape-3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {121, 15}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {121, 15}}</string>
+			<key>sourceSize</key>
+			<string>{121, 15}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{256, 256}</string>
+		<key>textureFileName</key>
+		<string>Sprites.png</string>
+	</dict>
+</dict>
+</plist>

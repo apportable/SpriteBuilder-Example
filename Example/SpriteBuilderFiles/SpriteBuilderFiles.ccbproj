@@ -78,7 +78,21 @@
 	<key>resourceProperties</key>
 	<dict>
 		<key>PhysicsDemo/Sprites</key>
-		<dict/>
+		<dict>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
+		<key>SpriteSheet/pixelguy.png</key>
+		<dict>
+			<key>format_android</key>
+			<integer>3</integer>
+			<key>format_ios</key>
+			<integer>3</integer>
+			<key>format_ios_compress</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>4</integer>
+		</dict>
 		<key>ccbResources</key>
 		<dict>
 			<key>previewFolderHidden</key>
@@ -132,17 +146,6 @@
 			<integer>1</integer>
 			<key>tabletScale</key>
 			<integer>1</integer>
-		</dict>
-		<key>pixelguy.png</key>
-		<dict>
-			<key>format_android</key>
-			<integer>3</integer>
-			<key>format_ios</key>
-			<integer>3</integer>
-			<key>format_ios_compress</key>
-			<true/>
-			<key>scaleFrom</key>
-			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>versionStr</key>

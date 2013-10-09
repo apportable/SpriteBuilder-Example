@@ -501,6 +501,7 @@
 					"\"../libs/cocos2d-iphone/cocos2d-ui\"/**",
 				);
 				INFOPLIST_FILE = Example/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -532,6 +533,7 @@
 					"\"../libs/cocos2d-iphone/cocos2d-ui\"/**",
 				);
 				INFOPLIST_FILE = Example/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",

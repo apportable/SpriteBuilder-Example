@@ -7,7 +7,6 @@
 //
 
 #import "PhysicsLevel.h"
-#import "CCPhysics.h"
 #import "CCBuilderReader.h"
 #import "cocos2d-ui.h"
 
@@ -17,11 +16,12 @@
 {
     CCButton* btn = sender;
     
-    CCSprite* ball = [CCSprite spriteWithFile:@"PhysicsDemo/Sprites/ball.png"];
-    ball.position = btn.position;
+    CCSprite* ball = [CCSprite spriteWithImageNamed:@"PhysicsDemo/Sprites/ball.png"];
     ball.physicsBody = [CCPhysicsBody bodyWithCircleOfRadius:ball.contentSizeInPoints.width/2 andCenter:ball.anchorPointInPoints];
     ball.physicsBody.density = 0.5;
     [_physicsNode addChild:ball];
+    
+    ball.position = btn.position;
 
     CGPoint force;
     float rotationRadians = CC_DEGREES_TO_RADIANS(_launcher.rotation);
