@@ -32,17 +32,10 @@
 		B77F1B5D17B978D7009739AE /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = B77F1B5C17B978D7009739AE /* iTunesArtwork */; };
 		B77F1CD217B978D8009739AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1CD117B978D8009739AE /* main.m */; };
 		B77F1CD517B978D8009739AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1CD417B978D8009739AE /* AppDelegate.m */; };
-		B77F1E4F17B98E8A009739AE /* CCBAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4017B98E8A009739AE /* CCBAnimationManager.m */; };
-		B77F1E5017B98E8A009739AE /* CCBKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4217B98E8A009739AE /* CCBKeyframe.m */; };
-		B77F1E5117B98E8A009739AE /* CCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4417B98E8A009739AE /* CCBReader.m */; };
-		B77F1E5217B98E8A009739AE /* CCBsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4617B98E8A009739AE /* CCBsequence.m */; };
-		B77F1E5317B98E8A009739AE /* CCBSequenceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E4817B98E8A009739AE /* CCBSequenceProperty.m */; };
-		B77F1E5617B98E8A009739AE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B77F1E4E17B98E8A009739AE /* README.md */; };
-		B77F1E5A17B995EA009739AE /* CCBLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B77F1E5917B995EA009739AE /* CCBLocalizationManager.m */; };
-		B79F90F618033D3800908504 /* PhysicsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B79F90F518033D3800908504 /* PhysicsScene.m */; };
-		B79F90F9180341FD00908504 /* PhysicsLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = B79F90F8180341FD00908504 /* PhysicsLevel.m */; };
-		B7B276EA17D941EF00F4F4B1 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B276E917D941EF00F4F4B1 /* MainScene.m */; };
+		B7B276EA17D941EF00F4F4B1 /* MainSceneContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B276E917D941EF00F4F4B1 /* MainSceneContent.m */; };
 		B7DC7F7217B9A30500AC8509 /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = B7DC7F7117B9A30500AC8509 /* Published-iOS */; };
+		B7E260D4181601D700A0E872 /* ButtonsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E260D3181601D700A0E872 /* ButtonsTest.m */; };
+		B7E260E1181722A000A0E872 /* TextFieldsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B7E260E0181722A000A0E872 /* TextFieldsTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +53,6 @@
 			remoteGlobalIDString = 5018F24D0DFDEAC400C013A5;
 			remoteInfo = cocos2d;
 		};
-		B73A0EFC17CD436C00544215 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B73A0EF117CD436C00544215 /* cocos2d-ios.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 502C65EE0DFEF3DD00E4107D;
-			remoteInfo = "cocos2d-documentation";
-		};
 		B73A0EFE17CD436C00544215 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B73A0EF117CD436C00544215 /* cocos2d-ios.xcodeproj */;
@@ -80,6 +66,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5018F24C0DFDEAC400C013A5;
 			remoteInfo = cocos2d;
+		};
+		B7E260CF1815EAE000A0E872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B73A0EF117CD436C00544215 /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D36F7E35181580A000E94F72;
+			remoteInfo = UnitTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -112,28 +105,14 @@
 		B77F1CD117B978D8009739AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B77F1CD317B978D8009739AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B77F1CD417B978D8009739AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B77F1E3F17B98E8A009739AE /* CCBAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBAnimationManager.h; sourceTree = "<group>"; };
-		B77F1E4017B98E8A009739AE /* CCBAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBAnimationManager.m; sourceTree = "<group>"; };
-		B77F1E4117B98E8A009739AE /* CCBKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBKeyframe.h; sourceTree = "<group>"; };
-		B77F1E4217B98E8A009739AE /* CCBKeyframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBKeyframe.m; sourceTree = "<group>"; };
-		B77F1E4317B98E8A009739AE /* CCBReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBReader.h; sourceTree = "<group>"; };
-		B77F1E4417B98E8A009739AE /* CCBReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBReader.m; sourceTree = "<group>"; };
-		B77F1E4517B98E8A009739AE /* CCBSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSequence.h; sourceTree = "<group>"; };
-		B77F1E4617B98E8A009739AE /* CCBsequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBsequence.m; sourceTree = "<group>"; };
-		B77F1E4717B98E8A009739AE /* CCBSequenceProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSequenceProperty.h; sourceTree = "<group>"; };
-		B77F1E4817B98E8A009739AE /* CCBSequenceProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBSequenceProperty.m; sourceTree = "<group>"; };
-		B77F1E4E17B98E8A009739AE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		B77F1E5717B993F5009739AE /* CCBuilderReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBuilderReader.h; sourceTree = "<group>"; };
-		B77F1E5817B995EA009739AE /* CCBLocalizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBLocalizationManager.h; sourceTree = "<group>"; };
-		B77F1E5917B995EA009739AE /* CCBLocalizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBLocalizationManager.m; sourceTree = "<group>"; };
-		B79F90F418033D3800908504 /* PhysicsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsScene.h; sourceTree = "<group>"; };
-		B79F90F518033D3800908504 /* PhysicsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsScene.m; sourceTree = "<group>"; };
-		B79F90F7180341FD00908504 /* PhysicsLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsLevel.h; sourceTree = "<group>"; };
-		B79F90F8180341FD00908504 /* PhysicsLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsLevel.m; sourceTree = "<group>"; };
-		B7B276E817D941EE00F4F4B1 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
-		B7B276E917D941EF00F4F4B1 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		B7B276E817D941EE00F4F4B1 /* MainSceneContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSceneContent.h; sourceTree = "<group>"; };
+		B7B276E917D941EF00F4F4B1 /* MainSceneContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSceneContent.m; sourceTree = "<group>"; };
 		B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libObjectiveChipmunk.a; path = "../libs/cocos2d-iphone/external/Chipmunk/xcode/build/Debug-iphoneos/libObjectiveChipmunk.a"; sourceTree = "<group>"; };
 		B7DC7F7117B9A30500AC8509 /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "Resources/Published-iOS"; sourceTree = "<group>"; };
+		B7E260D2181601D700A0E872 /* ButtonsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonsTest.h; sourceTree = "<group>"; };
+		B7E260D3181601D700A0E872 /* ButtonsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonsTest.m; sourceTree = "<group>"; };
+		B7E260DF181722A000A0E872 /* TextFieldsTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldsTest.h; sourceTree = "<group>"; };
+		B7E260E0181722A000A0E872 /* TextFieldsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldsTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +143,8 @@
 			children = (
 				B73A0EF917CD436C00544215 /* libbuild all libs.a */,
 				B73A0EFB17CD436C00544215 /* libcocos2d.a */,
-				B73A0EFD17CD436C00544215 /* libcocos2d-documentation.a */,
 				B73A0EFF17CD436C00544215 /* libkazmath.a */,
+				B7E260D01815EAE000A0E872 /* UnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,9 +187,9 @@
 		B77F1B4517B978D7009739AE /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				B79F90F318033CF000908504 /* PhysicsDemo */,
-				B7B276E817D941EE00F4F4B1 /* MainScene.h */,
-				B7B276E917D941EF00F4F4B1 /* MainScene.m */,
+				B7E260D5181601EB00A0E872 /* Tests */,
+				B7B276E817D941EE00F4F4B1 /* MainSceneContent.h */,
+				B7B276E917D941EF00F4F4B1 /* MainSceneContent.m */,
 				B77F1CD317B978D8009739AE /* AppDelegate.h */,
 				B77F1CD417B978D8009739AE /* AppDelegate.m */,
 				B7DC7F7117B9A30500AC8509 /* Published-iOS */,
@@ -244,7 +223,6 @@
 			isa = PBXGroup;
 			children = (
 				B73A0EF117CD436C00544215 /* cocos2d-ios.xcodeproj */,
-				B77F1E3D17B98E8A009739AE /* SpriteBuilder-Reader */,
 			);
 			name = libs;
 			sourceTree = "<group>";
@@ -258,45 +236,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B77F1E3D17B98E8A009739AE /* SpriteBuilder-Reader */ = {
+		B7E260D5181601EB00A0E872 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B77F1E3E17B98E8A009739AE /* CCBReader */,
-				B77F1E4E17B98E8A009739AE /* README.md */,
+				B7E260D2181601D700A0E872 /* ButtonsTest.h */,
+				B7E260D3181601D700A0E872 /* ButtonsTest.m */,
+				B7E260DF181722A000A0E872 /* TextFieldsTest.h */,
+				B7E260E0181722A000A0E872 /* TextFieldsTest.m */,
 			);
-			name = "SpriteBuilder-Reader";
-			path = "../../libs/SpriteBuilder-Reader";
-			sourceTree = "<group>";
-		};
-		B77F1E3E17B98E8A009739AE /* CCBReader */ = {
-			isa = PBXGroup;
-			children = (
-				B77F1E5717B993F5009739AE /* CCBuilderReader.h */,
-				B77F1E3F17B98E8A009739AE /* CCBAnimationManager.h */,
-				B77F1E4017B98E8A009739AE /* CCBAnimationManager.m */,
-				B77F1E4117B98E8A009739AE /* CCBKeyframe.h */,
-				B77F1E4217B98E8A009739AE /* CCBKeyframe.m */,
-				B77F1E4317B98E8A009739AE /* CCBReader.h */,
-				B77F1E4417B98E8A009739AE /* CCBReader.m */,
-				B77F1E4517B98E8A009739AE /* CCBSequence.h */,
-				B77F1E4617B98E8A009739AE /* CCBsequence.m */,
-				B77F1E4717B98E8A009739AE /* CCBSequenceProperty.h */,
-				B77F1E4817B98E8A009739AE /* CCBSequenceProperty.m */,
-				B77F1E5817B995EA009739AE /* CCBLocalizationManager.h */,
-				B77F1E5917B995EA009739AE /* CCBLocalizationManager.m */,
-			);
-			path = CCBReader;
-			sourceTree = "<group>";
-		};
-		B79F90F318033CF000908504 /* PhysicsDemo */ = {
-			isa = PBXGroup;
-			children = (
-				B79F90F418033D3800908504 /* PhysicsScene.h */,
-				B79F90F518033D3800908504 /* PhysicsScene.m */,
-				B79F90F7180341FD00908504 /* PhysicsLevel.h */,
-				B79F90F8180341FD00908504 /* PhysicsLevel.m */,
-			);
-			name = PhysicsDemo;
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,18 +320,18 @@
 			remoteRef = B73A0EFA17CD436C00544215 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B73A0EFD17CD436C00544215 /* libcocos2d-documentation.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libcocos2d-documentation.a";
-			remoteRef = B73A0EFC17CD436C00544215 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		B73A0EFF17CD436C00544215 /* libkazmath.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libkazmath.a;
 			remoteRef = B73A0EFE17CD436C00544215 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B7E260D01815EAE000A0E872 /* UnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.xctest;
+			remoteRef = B7E260CF1815EAE000A0E872 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -404,7 +352,6 @@
 				B77F1B5817B978D7009739AE /* Icon.png in Resources */,
 				B77F1B5A17B978D7009739AE /* Icon@2x.png in Resources */,
 				B77F1B5D17B978D7009739AE /* iTunesArtwork in Resources */,
-				B77F1E5617B98E8A009739AE /* README.md in Resources */,
 				B7DC7F7217B9A30500AC8509 /* Published-iOS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,15 +365,9 @@
 			files = (
 				B77F1CD217B978D8009739AE /* main.m in Sources */,
 				B77F1CD517B978D8009739AE /* AppDelegate.m in Sources */,
-				B79F90F618033D3800908504 /* PhysicsScene.m in Sources */,
-				B77F1E4F17B98E8A009739AE /* CCBAnimationManager.m in Sources */,
-				B77F1E5017B98E8A009739AE /* CCBKeyframe.m in Sources */,
-				B79F90F9180341FD00908504 /* PhysicsLevel.m in Sources */,
-				B77F1E5117B98E8A009739AE /* CCBReader.m in Sources */,
-				B77F1E5217B98E8A009739AE /* CCBsequence.m in Sources */,
-				B77F1E5317B98E8A009739AE /* CCBSequenceProperty.m in Sources */,
-				B77F1E5A17B995EA009739AE /* CCBLocalizationManager.m in Sources */,
-				B7B276EA17D941EF00F4F4B1 /* MainScene.m in Sources */,
+				B7E260E1181722A000A0E872 /* TextFieldsTest.m in Sources */,
+				B7E260D4181601D700A0E872 /* ButtonsTest.m in Sources */,
+				B7B276EA17D941EF00F4F4B1 /* MainSceneContent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

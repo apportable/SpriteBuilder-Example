@@ -7,80 +7,80 @@
 		<key>PhysicsDemo/Sprites/arrow.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{91, 18}, {24, 62}}</string>
+			<string>{{47, 10}, {12, 31}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 0}, {24, 62}}</string>
+			<string>{{0, 0}, {12, 31}}</string>
 			<key>sourceSize</key>
-			<string>{24, 62}</string>
+			<string>{12, 31}</string>
 		</dict>
 		<key>PhysicsDemo/Sprites/ball.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 173}, {45, 46}}</string>
+			<string>{{1, 89}, {22, 23}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 0}, {45, 46}}</string>
+			<string>{{0, 0}, {22, 23}}</string>
 			<key>sourceSize</key>
-			<string>{45, 46}</string>
+			<string>{22, 23}</string>
 		</dict>
 		<key>PhysicsDemo/Sprites/shape-0.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 18}, {88, 86}}</string>
+			<string>{{1, 10}, {44, 43}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 0}, {88, 86}}</string>
+			<string>{{0, 0}, {44, 43}}</string>
 			<key>sourceSize</key>
-			<string>{88, 86}</string>
+			<string>{44, 43}</string>
 		</dict>
 		<key>PhysicsDemo/Sprites/shape-1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{124, 1}, {108, 88}}</string>
+			<string>{{63, 1}, {54, 44}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 0}, {108, 88}}</string>
+			<string>{{0, 0}, {54, 44}}</string>
 			<key>sourceSize</key>
-			<string>{108, 88}</string>
+			<string>{54, 44}</string>
 		</dict>
 		<key>PhysicsDemo/Sprites/shape-2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 106}, {33, 65}}</string>
+			<string>{{1, 55}, {16, 32}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 0}, {33, 65}}</string>
+			<string>{{0, 0}, {16, 32}}</string>
 			<key>sourceSize</key>
-			<string>{33, 65}</string>
+			<string>{16, 32}</string>
 		</dict>
 		<key>PhysicsDemo/Sprites/shape-3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1}, {121, 15}}</string>
+			<string>{{1, 1}, {60, 7}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 0}, {121, 15}}</string>
+			<string>{{0, 0}, {60, 7}}</string>
 			<key>sourceSize</key>
-			<string>{121, 15}</string>
+			<string>{60, 7}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>
@@ -88,7 +88,7 @@
 		<key>format</key>
 		<integer>2</integer>
 		<key>size</key>
-		<string>{256, 256}</string>
+		<string>{128, 128}</string>
 		<key>textureFileName</key>
 		<string>Sprites.png</string>
 	</dict>

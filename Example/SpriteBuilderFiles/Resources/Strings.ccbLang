@@ -15,31 +15,13 @@
 	<array>
 		<dict>
 			<key>key</key>
-			<string>Hello SpriteBuilder</string>
+			<string>Hello</string>
 			<key>translations</key>
 			<dict>
 				<key>en</key>
-				<string>Hello SpriteBuilder</string>
+				<string>Hello</string>
 				<key>sv</key>
-				<string>Hej SpriteBuilder</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>key</key>
-			<string>Text With Outline
-&amp; Shadow!</string>
-			<key>translations</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>key</key>
-			<string>HELLO</string>
-			<key>translations</key>
-			<dict>
-				<key>en</key>
-				<string>HELLO</string>
-				<key>sv</key>
-				<string>HEJ</string>
+				<string>Hej</string>
 			</dict>
 		</dict>
 	</array>

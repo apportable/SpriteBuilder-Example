@@ -1,0 +1,55 @@
+/*
+ * SpriteBuilder: http://www.spritebuilder.org
+ *
+ * Copyright (c) 2013 Apportable Inc.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+#import "MainSceneContent.h"
+#import "CCBuilderReader.h"
+
+@implementation MainSceneContent
+
+- (void) pressedButtons:(id)sender
+{
+    CCButton* btn = sender;
+    [self runTestWithCCB:@"Tests/Buttons" title:btn.title];
+}
+
+- (void) pressedTextFields:(id)sender
+{
+    CCButton* btn = sender;
+    [self runTestWithCCB:@"Tests/TextFields" title:btn.title];
+}
+
+- (void) runTestWithCCB:(NSString*)ccbName title:(NSString*)title
+{
+    CCScene* testScene = [CCBReader sceneWithNodeGraphFromFile:ccbName owner:self];
+    _testTitle.string = title;
+    
+    [[CCDirector sharedDirector] pushScene:testScene withTransition:[CCTransition fadeWithColor:ccc3(0, 0, 0) duration:0.5f]];
+}
+
+- (void) pressedBack:(id)sender
+{
+    [[CCDirector sharedDirector] popSceneWithTransition:[CCTransition fadeWithColor:ccc3(0, 0, 0) duration:0.5f]];
+}
+
+@end
